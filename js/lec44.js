@@ -7,10 +7,11 @@ function orderChickenWith(sideDish) {
 }
 
 function orderFishWith(sideDish) {
-	sideDish = sideDish || "Whatever!"
+	sideDish = sideDish || "Clams!"
 	console.log("Fish with " + sideDish)
 }
 
 orderChickenWith("Noodles");
 orderChickenWith();
+orderFishWith("Meat!");
 orderFishWith();
