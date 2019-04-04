@@ -36,19 +36,32 @@
 
 
 // IF statement
-if ( false || null || undefined || 
-	"" || 0 || NaN) {
-	console.log("This will never be true");
+// if ( false || null || undefined || 
+// 	"" || 0 || NaN) {
+// 	console.log("This will never be true");
+// }
+// else {
+// 	console.log("Everythign was false");
+// }
+
+// if (true && "Hello" && 1 && -1 && "false") {
+// 	console.log("All was true!");
+// }
+
+
+function a()
+{
+	return
+		{
+			name: "Yaakov"
+		};
 }
-else {
-	console.log("Everythign was false");
+
+function b() {
+	return {
+		name: "Yaakov same line"
+	};
 }
 
-if (true && "Hello" && 1 && -1 && "false") {
-	console.log("All was true!");
-}
-
-
-
-
-
+console.log(a());
+console.log(b());
