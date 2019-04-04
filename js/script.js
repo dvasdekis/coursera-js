@@ -1,4 +1,4 @@
-// var x;
+var x;
 console.log(x);
 
 // if (x == undefined) {
