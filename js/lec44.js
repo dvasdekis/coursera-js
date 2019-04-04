@@ -8,7 +8,6 @@ function orderChickenWith(sideDish) {
 
 function orderFishWith(sideDish) {
 	sideDish = sideDish || "Whatever!"
-}
 	console.log("Fish with " + sideDish)
 }
 
