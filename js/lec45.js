@@ -7,5 +7,5 @@ company.ceo = new Object();
 company.ceo.firstName = "Mark";
 company.ceo.favColor = "blue";
 
-company.log(company);
+console.log(company);
 
