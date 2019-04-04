@@ -10,3 +10,5 @@ company.ceo.favColor = "blue";
 console.log(company);
 console.log("Company CEO name is: "
 	+ company.ceo.firstName);
+
+console.log(company["name"])
