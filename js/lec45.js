@@ -8,5 +8,5 @@ company.ceo.firstName = "Mark";
 company.ceo.favColor = "blue";
 
 console.log(company);
-console.log("COmpany CEO name is: "
-	+ comapny.ceo.firstName);
+console.log("Company CEO name is: "
+	+ company.ceo.firstName);
