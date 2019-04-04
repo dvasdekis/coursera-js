@@ -12,3 +12,4 @@ console.log("Company CEO name is: "
 	+ company.ceo.firstName);
 
 console.log(company["name"])
+console.log(company[name])
