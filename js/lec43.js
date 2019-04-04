@@ -15,23 +15,34 @@
 // test1();
 
 // Equality
-var x = 4, y = 4;
-if ( x == y) {
-	console.log("x=4 is equal to y=4");
-}
+// var x = 4, y = 4;
+// if ( x == y) {
+// 	console.log("x=4 is equal to y=4");
+// }
 
-x = "4";
-if (x == y) {
-	console.log ("x = '4' is equal to y=4");
-}
+// x = "4";
+// if (x == y) {
+// 	console.log ("x = '4' is equal to y=4");
+// }
 
 
-//Strict equality
-if (x === y) {
-	console.log("Strict: x ='4' is equal to y=4");
+// // Strict equality
+// if (x === y) {
+// 	console.log("Strict: x ='4' is equal to y=4");
+// }
+// else {
+// 	console.log("Strict: x='4' is not equal to y=4");
+// }
+
+
+// IF statement
+if ( false || null || undefined || 
+	"" || 0 || NaN) {
+	console.log("This will never be true");
 }
 else {
-	console.log("Strict: x='4' is not equal to y=4");
+	console.log("Everythign was false");
 }
+
 
 
