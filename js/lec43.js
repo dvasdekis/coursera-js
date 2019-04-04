@@ -44,5 +44,11 @@ else {
 	console.log("Everythign was false");
 }
 
+if (true && "Hello" && 1 && -1 && "false") {
+	console.log("All was true!");
+}
+
+
+
 
 
