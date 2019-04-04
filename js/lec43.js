@@ -49,19 +49,29 @@
 // }
 
 
-function a()
-{
-	return
-		{
-			name: "Yaakov"
-		};
-}
+// function a()
+// {
+// 	return
+// 		{
+// 			name: "Yaakov"
+// 		};
+// }
 
-function b() {
-	return {
-		name: "Yaakov same line"
-	};
-}
+// function b() {
+// 	return {
+// 		name: "Yaakov same line"
+// 	};
+// }
 
-console.log(a());
-console.log(b());
+// console.log(a());
+// console.log(b());
+
+// For loop
+var mysum = 0;
+for (var i = 0; i < 10; i++) {
+	mysum += i;
+}
+console.log("sum of 0 through 9 is: " + mysum);
+
+
+
