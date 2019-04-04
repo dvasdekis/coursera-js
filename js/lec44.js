@@ -6,5 +6,12 @@ function orderChickenWith(sideDish) {
 	console.log("Chicken with " + sideDish)
 }
 
+function orderFishWith(sideDish) {
+	sideDish = sideDish || "Whatever!"
+}
+	console.log("Fish with " + sideDish)
+}
+
 orderChickenWith("Noodles");
 orderChickenWith();
+orderFishWith();
