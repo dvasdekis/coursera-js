@@ -67,7 +67,7 @@
 // console.log(b());
 
 // For loop
-var mysum = 3;
+var mysum = 0;
 for (var i = 0; i < 10; i++) {
 	mysum += i;
 }
