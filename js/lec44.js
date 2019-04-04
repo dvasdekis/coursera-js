@@ -7,6 +7,7 @@ function orderChickenWith(sideDish) {
 }
 
 function orderFishWith(sideDish) {
+	// overwrites an undefined value with the OR statement
 	sideDish = sideDish || "Clams!"
 	console.log("Fish with " + sideDish)
 }
