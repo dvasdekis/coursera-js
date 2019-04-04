@@ -20,5 +20,7 @@ if ( x == y) {
 	console.log("x=4 is equal to y=4");
 }
 
-// x = "4";
-// if (x == y)
+x = "4";
+if (x == y) {
+	console.log ("x = '4' is equal to y=4");
+}
