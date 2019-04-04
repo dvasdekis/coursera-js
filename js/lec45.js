@@ -13,3 +13,6 @@ console.log("Company CEO name is: "
 
 console.log(company["name"])
 console.log(company[name])
+
+company.["stock of company"] = 110
+console.log("Stock price is " + company.["stock of company"])
