@@ -24,3 +24,14 @@ x = "4";
 if (x == y) {
 	console.log ("x = '4' is equal to y=4");
 }
+
+
+//Strict equality
+if (x === y) {
+	console.log("Strict: x ='4' is equal to y=4");
+}
+else {
+	console.log("Strict: x='4' is not equal to y=4");
+}
+}
+}
