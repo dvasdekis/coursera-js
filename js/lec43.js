@@ -33,3 +33,5 @@ if (x === y) {
 else {
 	console.log("Strict: x='4' is not equal to y=4");
 }
+
+
