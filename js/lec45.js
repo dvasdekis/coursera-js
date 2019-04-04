@@ -1,3 +1,3 @@
 //Lec 45
 
-var company - new Object();
+var company = new Object();
