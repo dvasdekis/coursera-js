@@ -8,3 +8,5 @@ function multiply(x, y) {
 }
 
 console.log(multiply(5,3));
+multiply.version - "v1.6.9"
+console(multiply);
