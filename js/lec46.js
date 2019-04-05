@@ -10,3 +10,4 @@ function multiply(x, y) {
 console.log(multiply(5,3));
 multiply.version = "v1.6.9"
 console.log(multiply);
+console.log(multiply.version);
