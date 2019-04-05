@@ -15,8 +15,10 @@ printab(a,b);
 console.log("Passing by reference");
 var c = {x: 7};
 var d = c;
-printab(c,d);
+console.log(c);
+console.log(d);
 
 d.x = 5;
-console.log("After b update?");
-printab(c,d);
+console.log("After d update?");
+console.log(c);
+console.log(d);
