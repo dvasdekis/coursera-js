@@ -21,3 +21,4 @@ console.log("Stock price is " + company["stock of company"])
 var someNum
 company[someNum] = 120
 console.log(company[someNum])
+
