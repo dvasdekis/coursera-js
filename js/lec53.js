@@ -8,5 +8,5 @@ function sayHello () {
 
 	document
 		.getElementById("content")
-		.textConent = message;
+		.textContent = message;
 }
