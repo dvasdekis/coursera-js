@@ -30,5 +30,7 @@ function sayHello () {
 			.querySelector("h1")
 			.textContent = title;
 	}
-
 }
+
+document.querySelector("button")
+	.addEventListener("click", sayHello);
