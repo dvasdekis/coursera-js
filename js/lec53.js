@@ -2,6 +2,7 @@
 //console.log(document.getElementById("title"));
 
 function sayHello () {
+	console.log(this);
 	var myname = 
 	document.getElementById("name").value;
 	var message = "<h2>Hello " + myname + "!</h2>";
