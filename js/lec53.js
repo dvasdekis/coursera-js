@@ -13,13 +13,18 @@ function sayHello () {
 	document
 		.getElementById("content")
 		.innerHTML = message;
-
+		
+	// putting in an easter egg
 	if (myname === "student") {
+		//Get the existing title using a CSS-style 
+		// query selector
 		var title =
 			document
 			.querySelector("#title")
 			.textContent;
+		// Amend some extra text to whatever returns
 		title += " & Lovin' it!";
+		// Set the title to the new amended string
 		document
 			.querySelector("#title")
 			.textContent = title;
