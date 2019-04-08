@@ -4,9 +4,14 @@
 function sayHello () {
 	var myname = 
 	document.getElementById("name").value;
-	var message = "Hello " + myname + "!";
+	var message = "<h2>Hello " + myname + "!</h2>";
+
+	// document
+	// 	.getElementById("content")
+	// 	.textContent = message;
 
 	document
-		.getElementById("content")
-		.textContent = message;
+	.getElementById("content")
+	.innerHTML = message;
+
 }
