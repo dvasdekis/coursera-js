@@ -11,7 +11,18 @@ function sayHello () {
 	// 	.textContent = message;
 
 	document
-	.getElementById("content")
-	.innerHTML = message;
+		.getElementById("content")
+		.innerHTML = message;
+
+	if (myname === "student") {
+		var title =
+			document
+			.querySelector("#title")
+			.textContent;
+		title += " & Lovin' it!";
+		document
+			.querySelector("#title")
+			.textContent = title;
+	}
 
 }
